@@ -37,6 +37,8 @@ API_KEY=your_api_key_here (start with AIxxxxxxxxxx)
 REFRESH_TOKEN=your_refresh_token_here (start with AMf-xxxx)
 # PROXY_URL=optional_proxy_url_here #optional
 ```
+save .env (ctrl + x + y)
+
 Run script
 ```
 python3 hanagrow.py
