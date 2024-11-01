@@ -19,6 +19,11 @@ Install python and pip
 ```
 sudo apt update && sudo apt install -y python3 python3-pip && python3 --version && pip3 --version
 ```
+Install and make screen (so it can run on background)
+```
+sudo apt install screen
+screen -S Hanafuda
+```
 Git clone
 ```
 git clone https://github.com/frostnova0x/Hanafuda.git
@@ -31,6 +36,7 @@ pip install -r requirements.txt
 get API and Refresh token from inspect element
 
 ![image](https://github.com/user-attachments/assets/417911e0-dc0a-4b97-bc62-e74133905332)
+
 create .env (nano .env) and fill with :
 ```
 API_KEY=your_api_key_here (start with AIxxxxxxxxxx)
@@ -44,3 +50,4 @@ Run script
 python3 hanagrow.py
 ```
 Set grow amount and enjoy
+Detach screen by pressing CTRL + A + D
